@@ -1,0 +1,105 @@
+Done loading the Training Data.
+The Mean of the Rating Attribute is : 
+0.855482535788
+The Standard Deviation for the Rating Attribute is : 
+0.351614865975
+Done seperating positive and negative reviews.
+[1 1 1 ..., 0 0 0]
+145927
+36481
+36481
+36481
+36484
+Done with tokenizing the reviews for Train Fold 1
+Done with tokenizing the reviews for Train Fold 2
+Done with tokenizing the reviews for Train Fold 3
+Done with tokenizing the reviews for Train Fold 4
+The length of the word features 1 we obtained:
+27435
+The length of the word features 2 we obtained:
+27382
+The length of the word features 3 we obtained:
+27255
+The length of the word features 4 we obtained:
+27435
+      words  count
+0      baby  17774
+1       not  17455
+2       one  16430
+3      love  14855
+4     great  13051
+5      like  11455
+6     would  10801
+7       use  10677
+8      seat  10090
+9      easy   9228
+10      get   9186
+11   little   8918
+12    month   8502
+13      old   8229
+14     time   7982
+15     well   7906
+16   really   7079
+17  product   7072
+18     also   7035
+19      son   6863
+(1, 3975)
+(1, 3973)
+(1, 3976)
+(1, 3975)
+(1, 3975)
+(1, 3973)
+(1, 3976)
+(1, 3975)
+Done with forming the Training Features for Fold 1
+Done with forming the Training Features for Fold 2
+Done with forming the Training Features for Fold 3
+Done with forming the Training Features for Fold 4
+(36481, 3975)
+(36481,)
+(36481, 3975)
+(36481,)
+(36481, 3975)
+(36481,)
+(36484, 3975)
+(36484,)
+Done with the classification using KNN with K=6.
+36481
+Accuracy on the Training Dataset is:
+86.62207816236885
+Done with loading the Test Dataset.
+Mean of the ratings is : 
+0.855391282881
+Standard Deviation of the ratings is: 
+0.351710717923
+Done splitting the positives and negatives in the testing dataset
+36457
+36457
+Done with tokenizing the Testing dataset.
+27828
+      words  count
+0       not  20502
+1      baby  17687
+2       one  16201
+3      love  13132
+4     great  11756
+5     would  11417
+6      like  11267
+7      seat  10442
+8       use  10437
+9       get   9549
+10    month   8510
+11   little   8383
+12     time   8267
+13     easy   8255
+14      old   7899
+15     well   7800
+16  product   7426
+17   really   6923
+18     also   6870
+19      son   6468
+(36457, 3975)
+36457
+36457
+Accuracy on the Testing Dataset is:
+85.31969169158187
