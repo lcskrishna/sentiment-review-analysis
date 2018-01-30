@@ -1,0 +1,74 @@
+Done formation of the Training dataset.
+The mean of output classes in the Training dataset is:
+4.12043007805
+The standard deviation of the output classes in the Training dataset is:
+1.28537032374
+Done forming the positive and negative reveiws.
+Done formation of the training features.
+55558
+[('not', 80912), ('baby', 70749), ('one', 66194), ('love', 52997), ('great', 47666), ('like', 45664), ('would', 45661), ('use', 42480), ('seat', 39416), ('get', 38306), ('month', 34560), ('time', 33391), ('little', 33166), ('easy', 32862), ('old', 31945), ('well', 30745), ('product', 30585), ('really', 28026), ('also', 27756), ('son', 26691), ('bought', 25451), ('work', 25281), ('no', 24775), ('good', 23749), ('much', 23651)]
+      words  count
+0       not  80912
+1      baby  70749
+2       one  66194
+3      love  52997
+4     great  47666
+5      like  45664
+6     would  45661
+7       use  42480
+8      seat  39416
+9       get  38306
+10    month  34560
+11     time  33391
+12   little  33166
+13     easy  32862
+14      old  31945
+15     well  30745
+16  product  30585
+17   really  28026
+18     also  27756
+19      son  26691
+(145927, 4973)
+Classification is Done.
+Accuracy on the Training Data set with estimator value 700:
+94.595928101
+Classification is Done.
+Accuracy on the Training Data set with estimator value 750:
+94.8474237119
+Classification is Done.
+Accuracy on the Training Data set with estimator value 800:
+95.10508679
+Classification is Done.
+Accuracy on the Training Data set with estimator value 850:
+95.3223186936
+Done loading the testing dataset.
+Mean of the output classes in Testing dataset:
+4.1142167485
+Standard Deviation of the output classes in the Testing dataset is:
+1.28531314637
+Done forming the positive and negative reviews in testing dataset.
+27828
+[('not', 20502), ('baby', 17687), ('one', 16201), ('love', 13132), ('great', 11756), ('would', 11417), ('like', 11267), ('seat', 10442), ('use', 10437), ('get', 9549), ('month', 8510), ('little', 8383), ('time', 8267), ('easy', 8255), ('old', 7899), ('well', 7800), ('product', 7426), ('really', 6923), ('also', 6870), ('son', 6468), ('work', 6259), ('bought', 6186), ('no', 6051), ('good', 5950), ('much', 5944)]
+      words  count
+0       not  20502
+1      baby  17687
+2       one  16201
+3      love  13132
+4     great  11756
+5     would  11417
+6      like  11267
+7      seat  10442
+8       use  10437
+9       get   9549
+10    month   8510
+11   little   8383
+12     time   8267
+13     easy   8255
+14      old   7899
+15     well   7800
+16  product   7426
+17   really   6923
+18     also   6870
+19      son   6468
+Accuracy of the Testing dataset is:
+74.6687878871
